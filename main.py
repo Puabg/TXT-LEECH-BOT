@@ -19,19 +19,15 @@ import base64
 from utils import progress_bar, humanbytes, TimeFormatter
 import helper
 
-# Hardcoded API values
-API_ID = 20073998
-API_HASH = "4a6646ff9aa61d078637ea05853bc317"
-BOT_TOKEN = "8403544311:AAG5eDkyybOv3N_-TmTXyifFO8jtIhuj7r8"
 
 # Global flag for graceful shutdown
 is_shutting_down = False
 
 bot = Client(
     "bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+    api_id= 20073998
+    api_hash="4a6646ff9aa61d078637ea05853bc317"
+    bot_token="8403544311:AAG5eDkyybOv3N_-TmTXyifFO8jtIhuj7r8"
 )
 
 async def download_m3u8(url, output_file, key_url=None):
