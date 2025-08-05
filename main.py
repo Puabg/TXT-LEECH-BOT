@@ -25,9 +25,9 @@ is_shutting_down = False
 
 bot = Client(
     "bot",
-    api_id= 20073998
-    api_hash="4a6646ff9aa61d078637ea05853bc317"
-    bot_token="8403544311:AAG5eDkyybOv3N_-TmTXyifFO8jtIhuj7r8"
+    api_id= "20073998"
+    api_hash= "4a6646ff9aa61d078637ea05853bc317"
+    bot_token= "8403544311:AAG5eDkyybOv3N_-TmTXyifFO8jtIhuj7r8"
 )
 
 async def download_m3u8(url, output_file, key_url=None):
